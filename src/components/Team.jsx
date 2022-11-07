@@ -10,7 +10,7 @@ function Team() {
         <h1 className='text-center text-[45px] font-bold text-[#0CAC69] p-14'>Meet The Team</h1>
         <div className='grid grid-cols-4 pt-16 relative'>
             {teamData.map((item,index)=>
-                <div key={index} className="flex shadow-gray-500 shadow-lg hover:scale-110 duration-300 relative border-[#0CAC69] rounded-3xl border-2 h-[350px] px-2 mx-3 text-center">
+                <div key={index} className="flex shadow-gray-500 shadow-lg relative border-[#0CAC69] rounded-3xl border-2 h-[350px] px-2 mx-3 text-center">
                     <div className='flex justify-between'>
                         <img className='w-[150px] left-[26%] object-cover border-[#139b62ba] top-[-80px] absolute border-[12px] rounded-full h-[150px]' src={item.pimg} alt={item.pname}/>
                     </div>

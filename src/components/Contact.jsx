@@ -5,7 +5,7 @@ function Contact() {
     <div id='contact' className='max-w-[1640px] m-auto px-4 py-12'>
         <h1 className='text-center text-[45px] text-[#0CAC69] font-bold p-12'>Get in Touch</h1>
         <div className='flex justify-center'>
-        <div id="form--section" className='w-3/4 flex flex-col relative rounded-3xl bg-[#3cae7c3e] p-5'>
+        <div id="form--section" className='w-2/4 flex flex-col relative rounded-3xl bg-[#3cae7c3e] p-5'>
             <input className='p-3 m-2 rounded-lg' type="text" placeholder='Name' />
             <input className='p-3 m-2 rounded-lg' type="email" placeholder='Email'/>
             <textarea className='p-3 m-2 rounded-lg' name="Message" cols="5" rows="5" placeholder='Message'></textarea>

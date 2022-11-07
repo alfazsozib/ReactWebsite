@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <div className="p-4">
+      <div className="p-5">
       <Navbar />
       <Hero />
       <Course />

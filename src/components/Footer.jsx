@@ -4,7 +4,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillMail, AiOutlineTwitter}  from "re
 function Footer() {
   return (
     <div>
-        <footer className='grid grid-cols-3 p-12 items-center bg-[#0D0D0D] max-w-[1640px] h-[200px] text-white'>
+        <footer className='m-auto grid grid-cols-3 p-12 items-center bg-[#0D0D0D] max-w-[1640px] h-[200px] text-white'>
             <div id="logo--sec">
                 {/* <img src="" alt="" /> */}
                 <h2>Logo</h2>

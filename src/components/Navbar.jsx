@@ -2,8 +2,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='flex p-8 justify-end mr-10'>
-        <section className='flex'>
+    <div className='max-w-[1640px] m-auto'>
+        <section className='flex justify-end py-8 px-20'>
             <div id="nav">
               <ul className='flex gap-10'>
                 <li className='font-bold'><a href="/">Home</a></li>

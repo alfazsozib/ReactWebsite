@@ -3,7 +3,7 @@ import heroImg from "../assets/image/Frame.png";
 
 function Hero() {
   return (
-    <div id='hero' className='flex p-8 py-12'>
+    <div id='hero' className='m-auto flex p-8 py-12 max-w-[1640px]'>
       <div id="text-container" className='w-[50%]' >
         <div className='bold--box'>
             <h1 className='text-[70px] leading-[48px] font-bold'>Welcome to the</h1>

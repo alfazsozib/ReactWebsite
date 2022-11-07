@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='max-w-[1640px] m-auto'>
+    <div className='max-w-[1640px] m-auto mb-3'>
         <section className='flex justify-end py-8 px-20'>
             <div id="nav">
               <ul className='flex gap-10'>
